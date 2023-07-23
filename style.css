@@ -1,0 +1,219 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  background-color:rgb(26, 6, 56);
+  text-decoration: none;
+}
+h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background-color:rgb(26, 6, 56);
+  height: 70px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 30 70px;
+  font-weight: bold;
+
+}
+nav ul{
+  float: right;
+  margin:-5%;
+  margin-right: 10px;
+  padding: -223px;
+}
+nav ul li{
+  display:inline-block;
+  line-height: 80px;
+  margin: 0 10px ;
+  padding: 0px;
+}
+nav ul li a{
+  color:white;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+header{
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 80px;
+  margin: 50px;
+}
+img{
+  float: right;
+  padding: 60px;
+  margin: 0px;
+  
+}
+#mydiv{
+  float: left;
+  width: 15%;
+  height: 150px;
+  background-color: antiquewhite;
+}
+.divclas{
+  float: left;
+  width: 15%;
+  height: 150px;
+  background-color: antiquewhite;
+}
+.divnav{
+  float:right;
+  width: 15%;
+  height: 150px;
+  background-color: antiquewhite;
+}
+h5{
+  color: white;
+}
+h5,p{
+  color:white;
+ 
+}
+.div{
+  background-color: rgb(51, 47, 83);
+  color: white;
+  text-transform: lowercase;
+  font-size: 15px;
+}
+.main{
+  float: left;
+  width: 30%;
+  height: 300px;
+  background-color:rgb(26, 6, 56);
+  padding: 20px;
+  text 
+}
+footer {
+  height: 100%;
+  width: 100%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:rgb(26, 6, 56);
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius:30%;
+  display: inline-block;
+  text-align: center;
+  
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 30%;
+  display: inline-block;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-radius: 30%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
